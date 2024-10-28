@@ -14,4 +14,3 @@ Getting Started
 Installation
 You can install the YouTube Transcript API via pip:
 
-pip install youtube-transcript-api
