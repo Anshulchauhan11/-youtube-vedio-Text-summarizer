@@ -1,16 +1,48 @@
-YouTube Transcript API with Text Summarization
-Overview
-This project integrates the YouTube Transcript API with text summarization for streamlined access and concise analysis of YouTube transcripts. It enables you to retrieve subtitles for any video without needing an API key or a headless browser. The tool supports auto-generated subtitles, translations, and multiple export formats, making it valuable for developers working in NLP, AI, or content analysis.
+<h1 align="center">
+  ✨ YouTube Transcript API ✨
+</h1>
 
-Features
-Retrieve Transcripts: Access subtitles in multiple languages, including auto-generated ones.
-Text Summarization: Generate summaries of video content using integrated summarization functions.
-Batch Transcript Retrieval: Fetch transcripts for a list of videos simultaneously.
-Language Filtering: Choose transcripts based on specific languages or format types.
-Translation Support: Translate transcripts into multiple languages directly.
-Formatter Support: Export transcripts in JSON, SRT, WebVTT, and more.
+<p align="center">
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAENLEW8VUJ6G&source=url">
+    <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate">
+  </a>
+  <a href="https://app.travis-ci.com/jdepoix/youtube-transcript-api">
+    <img src="https://travis-ci.com/jdepoix/youtube-transcript-api.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://coveralls.io/github/jdepoix/youtube-transcript-api?branch=master">
+    <img src="https://coveralls.io/repos/github/jdepoix/youtube-transcript-api/badge.svg?branch=master" alt="Coverage Status">
+  </a>
+  <a href="http://opensource.org/licenses/MIT">
+    <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat" alt="MIT license">
+  </a>
+  <a href="https://pypi.org/project/youtube-transcript-api/">
+    <img src="https://img.shields.io/pypi/v/youtube-transcript-api.svg" alt="Current Version">
+  </a>
+  <a href="https://pypi.org/project/youtube-transcript-api/">
+    <img src="https://img.shields.io/pypi/pyversions/youtube-transcript-api.svg" alt="Supported Python Versions">
+  </a>
+</p>
 
-Getting Started
-Installation
-You can install the YouTube Transcript API via pip:
+<p align="center">
+  <b>This is a Python API that allows you to retrieve transcripts/subtitles for YouTube videos. It supports automatically generated subtitles, translation, and does not require a headless browser!</b>
+</p>
+<p align="center">
+  Maintenance of this project is made possible by all the <a href="https://github.com/jdepoix/youtube-transcript-api/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/jdepoix">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below, <a href="https://github.com/sponsors/jdepoix">click here</a>. 💖
+</p>
 
+<p align="center">
+  <a href="https://www.searchapi.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.searchapi.io/press/v1/svg/searchapi_logo_white_h.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://www.searchapi.io/press/v1/svg/searchapi_logo_black_h.svg">
+      <img alt="SearchAPI" src="https://www.searchapi.io/press/v1/svg/searchapi_logo_black_h.svg" height="40px">
+    </picture>
+  </a>&nbsp;&nbsp;
+</p>
+
+## Install
+
+It is recommended to [install this module using pip](https://pypi.org/project/youtube-transcript-api/):
+
+```bash
+pip install youtube-transcript-api
